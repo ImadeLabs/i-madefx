@@ -1,13 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  experimental: {
-    // This tells Turbopack to stop looking at the C:\Users\bb folder
-    // and start looking only inside your ParisWebFX folder.
-    turbopack: {
-      root: __dirname,
-    },
-  },
+  // Keep this empty for now, or add specific Next.js config options here
 };
 
 export default nextConfig;
