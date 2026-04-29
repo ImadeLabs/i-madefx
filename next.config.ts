@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Keep this empty for now, or add specific Next.js config options here
+  // Keeping it clean since we are fixing the root cause by removing the extra lockfile
 };
 
 export default nextConfig;

@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ParisWebFX | Nigeria's Trusted Exchange Since 2006",
-  description: "Buy and sell crypto instantly. ParisWebFX offers secure, reliable, and fast exchange services in Nigeria. DM for today's rates.",
+  title: "i-madeFX Exchange | Nigeria's Trusted Crypto & Gift Card Exchange",
+  description: "Buy and sell crypto and all kinds of gift cards instantly. i-madeFX Exchange offers secure, reliable, and fast exchange services in Nigeria. Chat with us on WhatsApp for today's rates.",
 };
 
 export default function RootLayout({
@@ -27,14 +27,14 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased scroll-smooth`}
     >
-      <body className="min-h-full flex flex-col bg-slate-50 text-slate-900">
+      <body className="min-h-full flex flex-col bg-slate-950 text-white">
         <main className="flex-grow">
           {children}
         </main>
         
-        {/* Simple Footer */}
-        <footer className="py-8 text-center text-slate-500 text-sm border-t bg-white">
-          <p>© {new Date().getFullYear()} ParisWebFX. All rights reserved.</p>
+        {/* Footer */}
+        <footer className="py-8 text-center text-slate-500 text-sm border-t border-slate-900 bg-slate-950">
+          <p>© {new Date().getFullYear()} i-madeFX Exchange. All rights reserved.</p>
         </footer>
       </body>
     </html>
